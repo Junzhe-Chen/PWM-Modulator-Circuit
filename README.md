@@ -42,7 +42,7 @@ To make the PWM generator, the system can be broken down into the following thre
 
 The overall structure of the system is shown in the diagram below:
 
-![System level diagram](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/43cd85b7-94d7-472e-89be-8a92acd21fbc)
+![System level diagram](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/a81c9ea1-c30a-4965-8c62-a3c4c7b23b04)
 
 Now we can go through each block of that system
 
@@ -148,11 +148,11 @@ There are various ways to design a comparator, some are more complex than others
 
 Replacing the collector resistor with current mirror can improve the circuit’s performance. 
 
-![LTP BJT](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/acfa5ccc-ddb3-45b8-84ea-6787c8bc61c3)
+![LTP BJT](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/dcfc3e4b-f29e-4110-b1aa-d5411b3c9347)
 
 MOSFET version of the circuit, which generally performs better than the BJT version due to the high input impedance and negligible gate current. However, the gain of the MOSFET is not as high as BJT which make the slew rate and current driving ability lower than its BJT counterparts. 
 
-![LTP MOSFET](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/2e783fe4-6887-4a99-829e-baf988294d40)
+![LTP MOSFET](https://github.com/Junzhe-Chen/PWM-Modulator-Circuit/assets/141964509/6deb0e0b-251a-4fad-a72f-27ef804fd365)
 
 ### Output buffer design
 
